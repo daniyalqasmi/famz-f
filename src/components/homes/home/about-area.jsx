@@ -15,7 +15,7 @@ import about_img_7 from "@assets/img/about/icon-7.png";
 import about_img_8 from "@assets/img/about/icon-8.png";
 import about_img_9 from "@assets/img/about/icon-9.png";
 import LineArrowTwo from '@/src/svg/line-arrow-2';
-import about from "@assets/img/about/about-01.png";
+import about from "@assets/img/logo/logo.png";
 
 const about_data = [
     {

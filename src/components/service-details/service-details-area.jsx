@@ -80,8 +80,49 @@ const service_details_content = {
 // const { service_details_tab, title, description, title_1, title_2, title_3, title_4, title_5, title_6, title_7, description_2, description_3, description_4, description_5, description_6, description_7, feture_list, description_8, description_9 } = service_details_content
 
 const ServiceDetailsArea = () => {
-   //   const [isVideoOpen, setIsVideoOpen] = useState(false);
-   const [isActive, setIsActive] = useState(1)
+   const [activeTab, setActiveTab] = useState(0);
+
+   const tabs = [
+      {
+
+         title: "Aviation",
+         content: (
+            <>
+               <p>FAMZ provides reliable aviation services, specializing in the supply and maintenance of high-quality aircraft spare parts and equipment. With a commitment to safety and efficiency, we support both commercial and private aircraft operators by offering tailored solutions for their maintenance needs. Our aviation services include sourcing rare and essential spare parts, ensuring that all components meet industry standards and regulatory requirements.</p>
+               <p>FAMZ partners with global manufacturers to offer an extensive range of aviation equipment, from essential mechanical parts to advanced navigation systems. Our team of experts provides maintenance services and technical support, ensuring aircraft remain operational and safe. With our dedication to quality and innovation, we continue to be a trusted partner in the aviation industry, delivering excellence in every aspect of aircraft operation and support.</p>
+            </>
+         )
+      },
+      {
+         title: "Medical",
+         content: (
+            <>
+               <p>FAMZ offers comprehensive medical solutions, providing equipment and services to both the public and private healthcare sectors.We specialize in turnkey healthcare projects, ensuring that hospitals and clinics have the necessary infrastructure, equipment, and technology for optimal operations. Our partnerships with leading global healthcare brands allow us to provide top-tier medical equipment, while our expert team offers reliable after-sales support, maintenance, and training.</p>
+
+               <p>In the medical field, FAMZ supplies a wide range of therapeutic, diagnostic, and lifesaving equipment. We also assist with hospital planning and facility development, ensuring that healthcare providers have the most advanced tools and technologies at their disposal. With over 15 years of experience, we are committed to delivering solutions that promote patient care and healthcare efficiency.</p>
+            </>
+         )
+      },
+      {
+         title: "Software Development",
+         content: (
+            <>
+               <p>FAMZ specializes in developing innovative software solutions tailored to meet the unique needs of various industries. Our software development team works closely with clients to create custom web and mobile applications, enterprise-level systems, and AI-driven automation tools. We ensure that our software solutions enhance operational efficiency, improve user experience, and meet the highest standards of security and scalability.</p>
+                                 
+                                 <p>From automating business processes to building e-commerce platforms and AI-powered chatbots, FAMZ leverages the latest technologies to deliver cutting-edge solutions. Our services include everything from initial software design to post-launch support, ensuring that our clients benefit from reliable, future-proof software systems that drive business growth.</p>
+
+                                 <h4>Key Offerings:</h4>
+                                 <ul>
+                                    <li>Custom Web & Mobile Applications: Tailored software to meet specific business needs.</li>
+                                    <li>AI & Automation Solutions: Intelligent systems that automate tasks and improve operational efficiency.</li>
+                                    <li>Enterprise Software: Robust, scalable systems for managing complex business operations</li>
+                                    <li>E-commerce Development: Building user-friendly, secure online stores with integrated payment systems.</li>
+                                    <li>Digital Marketing</li>
+                                 </ul>
+            </>
+         )
+      },
+   ];
 
    return (
       <>
@@ -169,9 +210,9 @@ const ServiceDetailsArea = () => {
                                  </div> */}
                         {/* </div> */}
 
-                        <Tabs isFitted variant='enclosed'>
+                        {/* <Tabs isFitted variant='enclosed'>
                            <TabList mb='1em'>
-                              <Tab className=' mr-50 border-black border w-25 border-3 rounded-2xl'><h1>Aviation</h1></Tab>
+                              <Tab className=' md:text-xl lg:text-2xl mr-50 border-black border w-25 border-3 rounded-2xl'><h1>Aviation</h1></Tab>
                               <Tab className='mr-50 border-black border w-25 border-3 rounded-2xl'><h1>Medical</h1></Tab>
                               <Tab className='border-black border w-25 border-3'><h1 >Software</h1></Tab>
                            </TabList>
@@ -201,7 +242,49 @@ const ServiceDetailsArea = () => {
                                  </ul>
                               </TabPanel>
                            </TabPanels>
-                        </Tabs>
+                        </Tabs> */}
+
+                        {/* <div className="container mx-auto p-4">
+                           <div className="flex border-b">
+                              {tabs.map((tab, index) => (
+                                 <button
+                                    key={index}
+                                    className={`py-2 px-4 text-sm font-medium transition-colors duration-300 ${activeTab === index
+                                          ? 'border-b-2 border-blue-500 text-blue-500'
+                                          : 'text-gray-600 hover:text-blue-500'
+                                       }`}
+                                    onClick={() => setActiveTab(index)}
+                                 >
+                                    {tab.title}
+                                 </button>
+                              ))}
+                           </div>
+                           <div className="mt-4 p-4 border rounded-lg bg-gray-100">
+                              {tabs[activeTab].content}
+                           </div>
+                        </div> */}
+                        <div className="container mx-auto p-4">
+                           <div className="flex border-b">
+                              {tabs.map((tab, index) => (
+                                 <button
+                                    key={index}
+                                    className={`py-2 px-4 text-sm font-medium transition-all duration-300 ease-in-out ${activeTab === index
+                                       ? 'border-b-2 border-blue-500 text-blue-800 bg-blue-100 transform scale-105'
+                                       : 'text-gray-600 hover:text-white hover:bg-blue-500 hover:scale-105'
+                                       } rounded-md`} // Rounded corners for better aesthetics
+                                    onClick={() => setActiveTab(index)}
+                                 >
+                                    {tab.title}
+                                 </button>
+                              ))}
+                           </div>
+                           <div
+                              className={`mt-4 p-4 border rounded-lg bg-gray-100 transition-opacity duration-300 ${activeTab === 0 ? 'opacity-100' : 'opacity-0'
+                                 } ${activeTab === 1 ? 'opacity-100' : 'opacity-0'} ${activeTab === 2 ? 'opacity-100' : 'opacity-0'} `}
+                           >
+                              {tabs[activeTab].content}
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
