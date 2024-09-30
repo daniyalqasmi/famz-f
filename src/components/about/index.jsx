@@ -12,6 +12,7 @@ import TeamArea from '@/src/common/team-area';
 import BlogArea from '@/src/common/blog-area';
 import FooterContact from '@/src/layout/footers/footer-contact';
 import FooterThree from '@/src/layout/footers/footer-3';
+import Footer from '@/src/layout/footers/footer';
 
 const About = () => {
     return (
@@ -29,7 +30,7 @@ const About = () => {
             {/* <BlogArea /> */}
             <FooterContact />
           </main>
-          <FooterThree />
+          <Footer/>
         </>
     );
 };

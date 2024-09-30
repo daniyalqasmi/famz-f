@@ -171,97 +171,34 @@ const ServiceDetailsArea = () => {
 
                         <Tabs isFitted variant='enclosed'>
                            <TabList mb='1em'>
-                              <Tab className='mr-150'><h1>Aviation</h1></Tab>
-                              <Tab><h1>Madical</h1></Tab>
+                              <Tab className=' mr-50 border-black border w-25 border-3 rounded-2xl'><h1>Aviation</h1></Tab>
+                              <Tab className='mr-50 border-black border w-25 border-3 rounded-2xl'><h1>Medical</h1></Tab>
+                              <Tab className='border-black border w-25 border-3'><h1 >Software</h1></Tab>
                            </TabList>
                            <TabPanels>
                               <TabPanel>
-                                 <h1>Our Story</h1>
-                                 <p>FAMZ  was founded in 1998 in Texas, USA, by a group of
-                                    passionate  professionals who recognized the critical need
-                                    for reliable, high-quality aircraft spare parts and maintenance
-                                    services. From the outset, our founders were driven by a mission to
-                                    enhance the safety, reliability, and efficiency of aircraft operations
-                                    worldwide</p>
-                                 <p>In the early days, the  industry was rapidly evolving, with
-                                    increasing demand for both commercial and private aircraft. Our
-                                    founders faced numerous challenges, from sourcing rare spare parts
-                                    to establishing trust with potential clients. Despite these hurdles,
-                                    their unwavering dedication and commitment to excellence set the
-                                    foundation for what FAMZ  would become.</p>
-                                 <h1>Our Mission</h1>
-                                 <h1>Our Mission and Vision</h1>
-                                 <p>Our mission is to provide unparalleled service and support to the
-                                    industry, ensuring the safety, reliability, and efficiency of
-                                    aircraft operations. Our vision is to be the preferred global partner
-                                    for aircraft parts and maintenance services, recognized for our
-                                    excellence, innovation, and commitment to customer satisfaction.</p>
-                                 <h1>Looking Ahead</h1>
-                                 <p>As we look to the future, FAMZ  remains committed to our
-                                    core values of excellence, integrity, customer focus, innovation,
-                                    and safety. We continue to expand our capabilities, forge new
-                                    partnerships, and invest in the latest technologies to better serve
-                                    our clients. Our goal is to keep aircraft in the air, safely and
-                                    efficiently, for years to come</p>
-                                 <h1>Philosophy</h1>
-                                 <p>
-                                    At FAMZ , our philosophy is centered around the belief that the
-                                    industry thrives on precision, trust, and continuous
-                                    improvement. We understand the critical role that our services play in
-                                    ensuring the safety and efficiency of aircraft operations. Therefore, our
-                                    approach is built on several core principles:
-                                 </p>
-                                 <h1>Customer-Centric Approach: </h1><p>We believe that our customers are our most
-                                    valuable assets. Our success is directly tied to their satisfaction, which is
-                                    why we go above and beyond to meet their needs. We listen actively,
-                                    respond promptly, and provide personalized solutions that address
-                                    specific requirements.</p>
-                                 <h1>Commitment to Quality:</h1>
-                                 <p>Quality is non-negotiable at FAMZ . From
-                                    the sourcing of spare parts to the execution of repair and maintenance
-                                    services, every step is governed by stringent quality control measures. We
-                                    ensure that all parts and services meet or exceed industry standards and
-                                    regulatory requirements.</p>
-                                 <h1>Innovation and Adaptability:</h1>
-                                 <p>The  industry is dynamic, with new
-                                    challenges and advancements emerging regularly. We foster a culture of
-                                    innovation and adaptability, encouraging our team to embrace new
-                                    technologies and methodologies. This proactive approach enables us to
-                                    stay ahead of industry trends and continuously enhance our service
-                                    offerings.</p>
+                                 <p>FAMZ provides reliable aviation services, specializing in the supply and maintenance of high-quality aircraft spare parts and equipment. With a commitment to safety and efficiency, we support both commercial and private aircraft operators by offering tailored solutions for their maintenance needs. Our aviation services include sourcing rare and essential spare parts, ensuring that all components meet industry standards and regulatory requirements.</p>
+                                 <p>FAMZ partners with global manufacturers to offer an extensive range of aviation equipment, from essential mechanical parts to advanced navigation systems. Our team of experts provides maintenance services and technical support, ensuring aircraft remain operational and safe. With our dedication to quality and innovation, we continue to be a trusted partner in the aviation industry, delivering excellence in every aspect of aircraft operation and support.</p>
                               </TabPanel>
                               <TabPanel>
-                                 <h1>Madical</h1>
-                                 <p>FAMZ is a professional service provider to the Textile, Pharmaceutical, Aviation and
-                                    healthcare industries, positioned to serve both the public and private sector with
-                                    particular focus on Fire Fighting, Aviation Equipment, PME, mobile and alternative
-                                    healthcare facilities and medical equipment. <br />
-                                    We supply and maintain Fire Fighting, Aviation, PME and medical equipment and
-                                    mobile healthcare facilities offering turnkey solutions to our clients.
-                                    FAMZ represents various leading brands with strategic healthcare partners in Pakistan.
-                                    We have strategic partnerships in order to provide software solutions to different sector
-                                    that include practice management, workflow and primary healthcare software. <br />
-                                    FAMZ also offers turnkey solutions related to the industry / hospital development and
-                                    planning. Our commitment is to deliver a fair and professional service, with the
-                                    necessary support afterwards. Our team of experts include people with a wealth of
-                                    experience in various segments of the industry / hospitals. <br />
-                                    FAMZ is as a results well-resourced to offer a turnkey solution to ensure customer
-                                    satisfaction related to sales, service and training. Our aim is to build long-term
-                                    relationships with our customers to ensure enduring sustainable relationships.
-                                    FAMZ supplies, installs, services and maintains various types of medical and industrial
-                                    equipment and products for the Pakistan Market. <br />
-                                    In medical field, we supply and maintain Therapeutic, diagnostic, monitoring, lifesaving
-                                    equipment, mobile healthcare equipment, aesthetic equipment and biomedical test
-                                    equipment. <br />
-                                    FAMZ also assist in hospital/facility development and planning. Our commitment is to
-                                    deliver a fair and integrated service, with the latest data available, based on scientific
-                                    facts and professional opinion backed up by our extensive experience.
-                                    Our team of experts include people with a wealth of experience in various segments of
-                                    the industry. With over 15 years of combined experience in sales, service and repair of
-                                    medical and industrial equipment, FAMZ has a strong technical division which offers aftersales support and training.
-                                    FAMZ is committed to deliver a professional service in the fields of sales, service and
-                                    training to ensure customer satisfaction. Our aim is to build long term relationships with
-                                    our customers to ensure enduring partnerships between FAMZ and our customers.!</p>
+                                 <p>FAMZ offers comprehensive medical solutions, providing equipment and services to both the public and private healthcare sectors.We specialize in turnkey healthcare projects, ensuring that hospitals and clinics have the necessary infrastructure, equipment, and technology for optimal operations. Our partnerships with leading global healthcare brands allow us to provide top-tier medical equipment, while our expert team offers reliable after-sales support, maintenance, and training.</p>
+                               
+                                 <p>In the medical field, FAMZ supplies a wide range of therapeutic, diagnostic, and lifesaving equipment. We also assist with hospital planning and facility development, ensuring that healthcare providers have the most advanced tools and technologies at their disposal. With over 15 years of experience, we are committed to delivering solutions that promote patient care and healthcare efficiency.</p>
+                              
+                              </TabPanel>
+                              <TabPanel>
+                                 <p>FAMZ specializes in developing innovative software solutions tailored to meet the unique needs of various industries. Our software development team works closely with clients to create custom web and mobile applications, enterprise-level systems, and AI-driven automation tools. We ensure that our software solutions enhance operational efficiency, improve user experience, and meet the highest standards of security and scalability.</p>
+                                 
+                                 <p>From automating business processes to building e-commerce platforms and AI-powered chatbots, FAMZ leverages the latest technologies to deliver cutting-edge solutions. Our services include everything from initial software design to post-launch support, ensuring that our clients benefit from reliable, future-proof software systems that drive business growth.</p>
+
+                                 <h4>Key Offerings:</h4>
+                                 <ul>
+                                    <li>Custom Web & Mobile Applications: Tailored software to meet specific business needs.</li>
+                                    <li>AI & Automation Solutions: Intelligent systems that automate tasks and improve operational efficiency.</li>
+                                    <li>Enterprise Software: Robust, scalable systems for managing complex business operations</li>
+                                    <li>E-commerce Development: Building user-friendly, secure online stores with integrated payment systems.</li>
+                                    <li>Digital Marketing</li>
+                                 </ul>
                               </TabPanel>
                            </TabPanels>
                         </Tabs>

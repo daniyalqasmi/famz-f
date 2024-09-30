@@ -16,7 +16,6 @@ import support_img_6 from "@assets/img/about/home-3/img-6.jpg";
 
 const support_contact = {
    sub_title_1: "We’ve been stay",
-   sub_title_2: " 38 years",
    info: <>Our company provides a full range of services for the <br />Madical & Airline Industry.</>,
    title_1: "Repair and Maintenance Services",
    title_2: "Authorized MRO and OEM Collaboration:",
@@ -58,9 +57,7 @@ const SupportArea = () => {
                         </span>
                         <h3 className="tp-section-title">
                            {sub_title_1}
-                           <span className="title-color">
-                              {sub_title_2}
-                           </span>
+                           
                            <span className="title-left-shape">
                               <LineArrowTwo />
                            </span>

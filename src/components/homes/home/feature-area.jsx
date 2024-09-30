@@ -19,7 +19,7 @@ const feature_content = {
             id: 1,
             img: feature_img_1,
             title: "Our Story",
-            description: <>FAMZ  was founded in 1998 <br />in Texas, USA, by a group of</>,
+            description: <>FAMZ  was established<br />in Karachi, Pakistan</>,
         },
         {
             id: 2,
@@ -56,7 +56,7 @@ const FeatureArea = ({about}) => {
                            Our <span className="title-pre-color">About</span>
                            <AngleArrow />
                         </span>
-                        <h3 className="tp-section-title">We Have Been Thriving In <span className="title-color">38 Years</span>
+                        <h3 className="tp-section-title">We Have Been Providing Services <span className="title-color">iIn The World</span>
                            <span className="title-right-shape"> 
                               <LineArrowFive />
                            </span>

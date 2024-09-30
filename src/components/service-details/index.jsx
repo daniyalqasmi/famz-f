@@ -6,6 +6,7 @@ import FooterContact from "@/src/layout/footers/footer-contact";
 import FooterThree from "@/src/layout/footers/footer-3";
 import AboutArea from "../homes/home-3/about-area";
 import CounterArea from "../homes/home-2/counter-area";
+import Footer from "@/src/layout/footers/footer";
 const ServiceDetails = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const ServiceDetails = () => {
         {/* <Tabs2/> */}
         <ServiceDetailsArea/>
       </main>
-      <FooterThree />
+      <Footer/>
     </>
   );
 };

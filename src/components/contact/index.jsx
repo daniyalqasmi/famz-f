@@ -5,6 +5,7 @@ import ContactArea from './contact-area';
 import GoogleMap from './google-map';
 import FooterContact from '@/src/layout/footers/footer-contact';
 import FooterThree from '@/src/layout/footers/footer-3';
+import Footer from '@/src/layout/footers/footer';
 
 const Contact = () => {
     return (
@@ -16,7 +17,7 @@ const Contact = () => {
                 <GoogleMap />
                 <FooterContact contact_style={true} />
             </main>
-            <FooterThree />
+            <Footer />
         </>
     );
 };
