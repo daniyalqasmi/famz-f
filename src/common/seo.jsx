@@ -9,6 +9,15 @@ const SEO = ({ pageTitle }) => (
       <meta name="robots" content="noindex, follow" />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <link rel="icon" href="/favicon.png" />
+      {/* <!-- Google tag (gtag.js) --> */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DZFK0X5VW8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DZFK0X5VW8');
+</script>
     </Head>
   </>
 );
